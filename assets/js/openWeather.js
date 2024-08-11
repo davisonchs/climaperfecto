@@ -8,3 +8,16 @@ async function getCityByName(query) {
     return data[0]
 }
 
+// get forecast
+async function getForecast(lat, lon) {
+    const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=imperial`
+    const res = await fetch(url)
+    if (!res.ok) throw new Error('Response not OK')
+    const data = await res.json()
+    return data
+}
+// Exporting functions
+const openWeather = {
+    getCityByName,
+    getForecast
+}
