@@ -1,26 +1,26 @@
-/* General Body Styling */
+
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #eaf4ea; /* Light green background */
+    background-color: #eaf4ea;
     color: #333;
 }
 
-/* Navbar Styling */
+
 .navbar {
-    background-color: #28a745; /* Primary green for navbar */
+    background-color: #28a745; 
 }
 
 .navbar h2 {
-    color: #fff; /* White text color for navbar */
+    color: #fff; 
 }
 
-/* Modal Styling */
+
 .modal-content {
     border-radius: 0.5rem;
 }
 
 .modal-header {
-    background-color: #dc3545; /* Red for error modals */
+    background-color: #dc3545; 
     color: #fff;
 }
 
@@ -28,23 +28,22 @@ body {
     border-top: 1px solid #dee2e6;
 }
 
-/* Input and Button Styling */
+
 #city-name-input {
     border-radius: 0.25rem;
-    border-color: #28a745; /* Green border for input field */
+    border-color: #28a745; 
 }
 
 #search-button {
-    background-color: #28a745; /* Green background for button */
-    border-color: #28a745; /* Green border for button */
-}
+    background-color: #28a745; 
+    border-color: #28a745; 
 
 #search-button:hover {
-    background-color: #218838; /* Darker green for button hover */
-    border-color: #1e7e34; /* Darker green border for button hover */
+    background-color: #218838; 
+    border-color: #1e7e34; 
 }
 
-/* Card Styling */
+
 .card {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -62,16 +61,15 @@ body {
     border-radius: 0.5rem;
 }
 
-/* Info Card Styling */
+
 .bg-success {
-    background-color: #28a745 !important; /* Green for info cards */
+    background-color: #28a745 !important; 
 }
 
 .text-light {
-    color: #fff !important; /* Ensure text is white on dark backgrounds */
+    color: #fff !important; 
 }
 
-/* Button Secondary Styling */
 .btn-secondary {
     background-color: #6c757d;
     border-color: #6c757d;
@@ -82,7 +80,7 @@ body {
     border-color: #545b62;
 }
 
-/* Forecast Cards Styling */
+
 #forecast-cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -90,5 +88,6 @@ body {
 }
 
 .card-body.bg-success {
-    background-color: #28a745; /* Green background for forecast cards */
+    background-color: #28a745; 
     col
+}
