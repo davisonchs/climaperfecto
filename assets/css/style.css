@@ -37,7 +37,7 @@ body {
 #search-button {
     background-color: #28a745; 
     border-color: #28a745; 
-
+}
 #search-button:hover {
     background-color: #218838; 
     border-color: #1e7e34; 
@@ -89,5 +89,4 @@ body {
 
 .card-body.bg-success {
     background-color: #28a745; 
-    col
-}
+    }
